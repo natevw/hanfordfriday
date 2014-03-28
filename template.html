@@ -1,0 +1,40 @@
+<!doctype html>
+<html><head>
+    <meta charset="utf-8">
+    <title>Is it Hanford Friday?</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+        }
+        data {
+            font-size: 5em;
+            display: block;
+            margin: 1em;
+        }
+        
+        data[value=near] { color: gold; }
+        data[value=today] { color: orangered; }
+        data[value=recent] { color: yellowgreen; }
+        data[value=pending] { color: forestgreen; }
+        data[value=unknown] {
+            text-decoration: blink;
+            font-family: "Synchro LET", "MS Mincho", monospace;
+            color: #44B2BA;
+        }
+        
+        footer {
+            font-size: 0.5em;
+            color: grey;
+        }
+    </style>
+</head><body>
+    <section>
+        <h1>Is it Hanford Friday?</h1>
+        <data value="{{machineAnswer}}">{{humanAnswer}}</data>
+    </section>
+    
+    <footer>
+        Brought to you by <a href="http://exts.ch/">natevw</a>, and the letter {{randomLetter}}.
+    </footer>
+</body></html>

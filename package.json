@@ -1,0 +1,15 @@
+{
+  "name": "hanfordfriday",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Locally-relevant single serving site",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Nathan Vander Wilt",
+  "license": "ISC",
+  "dependencies": {
+    "flatstache": "^1.0.0"
+  }
+}
