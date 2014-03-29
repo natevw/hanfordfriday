@@ -19,7 +19,7 @@ var HUMAN_ANSWERS = {
 var now = (process.env.HANFORD_DATE) ? Date.parse(process.env.HANFORD_DATE) : Date.now(),
     answer = lib.statusForTime(now).info,
     letterIdx = Math.floor(Math.random() * RANDOM_LETTERS.length),
-    template = fs.readFileSync(__dirname+"/template.html", {encoding:'utf8'});
+    template = fs.readFileSync(__dirname+"/template.html", 'utf8');
 process.stdout.write(Flatstache.to_html(template, {
     machineAnswer: answer,
     humanAnswer: HUMAN_ANSWERS[answer],
