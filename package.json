@@ -1,15 +1,15 @@
 {
   "name": "hanfordfriday",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Locally-relevant single serving site",
+  "repository": "git+https://github.com/natevw/hanfordfriday.git",
   "main": "index.js",
   "scripts": {
     "test": "node test"
   },
   "author": "Nathan Vander Wilt",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "flatstache": "^1.0.0"
   }
 }
