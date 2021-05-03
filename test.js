@@ -35,6 +35,6 @@ assertAnswer("2014-04-06", 'pending');
 assertAnswer("2014-04-07", 'near');
 assertAnswer("2014-04-10", 'near');
 assertAnswer("2014-04-11", 'today');
-assertAnswer("2020-01-01", 'unknown');
+assertAnswer("2030-01-01", 'unknown');
 console.log("\nResult: "+assertAnswer.stats.passed+" passed, "+assertAnswer.stats.failed+" failed.");
 if (assertAnswer.stats.failed) process.exit(-1);
