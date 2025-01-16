@@ -1,4 +1,6 @@
 /* THE CALENDAR (and algorithm) */
+// now at https://www.gsa.gov/buy-through-us/purchasing-programs/shared-services/payroll-shared-services/payroll-calendars
+// formerly:
 // …via http://www.gsa.gov/portal/mediaId/175839/fileName/2014_GSA_Payroll_Calendar.action
 //      …via http://www.gsa.gov/portal/content/102507
 //           …via http://hanfordfriday.blogspot.com/2012/04/how-to-tell-if-it-is-hanford-friday-off.html
@@ -168,6 +170,34 @@ var HANFORD_FRIDAYS = {     // TODO: use the ICS file instead of manual transcri
         10: [11,25],
         11: [8,22],
         12: [6,20]
+    },
+    2025: {
+         1: [3,17,31],
+         2: [14,28],
+         3: [14,28],
+         4: [11,25],
+         5: [9,23],
+         6: [6,20],
+         7: [4,18],  // payday technically the 3rd…
+         8: [1,15,29],
+         9: [12,26],
+        10: [10,24],
+        11: [7,21],
+        12: [5,19]
+   },
+   2026: {
+         1: [2,16,30],
+         2: [13,27],
+         3: [13,27],
+         4: [10,24],
+         5: [8,22],
+         6: [5,19],    // technically 18th
+         7: [3,17,31], // technically the 2nd
+         8: [14,28],
+         9: [11,25],
+        10: [9,23],
+        11: [6,20],
+        12: [4,18]     // also the 31st??
     },
 }, DAY_DURATION = 24*60*60e3;
 

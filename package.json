@@ -1,6 +1,6 @@
 {
   "name": "hanfordfriday",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Locally-relevant single serving site",
   "repository": "git+https://github.com/natevw/hanfordfriday.git",
   "main": "index.js",
